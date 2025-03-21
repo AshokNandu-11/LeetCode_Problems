@@ -34,7 +34,6 @@ public class TrappingRainWater {
         System.out.println(trw.trapping(arr));
     }
 }
-
 //SOLUTION WITH  O(1) TIME COMPLEXITY
 //<.........
 
