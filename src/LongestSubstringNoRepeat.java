@@ -11,9 +11,11 @@ public class LongestSubstringNoRepeat {
                 map1.remove(s.charAt(left));
                 left++;
             }
+
             map1.add(s.charAt(right));
             maxLength = Math.max(maxLength,right-left+1);
             right++;
+
         }
         return  maxLength;
 
